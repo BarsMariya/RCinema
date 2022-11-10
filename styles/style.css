@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-Regular.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'),
+        url('../fonts/DarkerGrotesque-Medium.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: local('Darker Grotesque'), 
+        url('../fonts/DarkerGrotesque-SemiBold.woff2') format('woff2'),
+        url('../fonts/DarkerGrotesque-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: local('Josefin Sans'),
+        url('../fonts/JosefinSans-Regular.woff2') format('woff2'),
+        url('../fonts/JosefinSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #121521;
+    color: #fff;
+    line-height: 130%;
+    margin: 0;   
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 1240px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+p {
+    color: #B2B2D3;
+}
+
+.d-grid {
+    display: grid;
+}
+
+li {
+    list-style: none;
+}
+
+
+.header-menu {
+    height: 141px;
+    align-items: center;
+}
+.main-menu {
+    list-style: none;
+    width: 706px;
+}
+.main-menu__item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.banner-block {
+    overflow: hidden;
+}
+.banner-block-text {
+    height: 750px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-block__img {
+    position: absolute;
+    right: -340px;
+    top: 0;
+}
+.banner-text {
+    width: 455px;
+}
+.banner-text-exps {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.banner-text-exps p {
+    font-size: 20px;
+}
+.banner-text__head {
+    font-size: 60px;
+    margin: 60px 0 30px 0;
+}
+.banner-text__quote {
+    font-size: 32px;
+    line-height: 130%;
+    width: 320px;
+}
+.banner-btn {
+    width: 410px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.banner-btn__item {
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+}
+.banner-btn__item--one {
+    width: 176px;
+    height: 59px;
+    background: #40467C;
+    border: #40467C 2px solid;
+    letter-spacing: 2px
+}
+.banner-btn__item--two {
+    width: 204px;
+    height: 59px;
+    border: #fff 2px solid;
+    letter-spacing: 2px
+}
+
+
+.video {
+    width: 1242px;
+    height: 524px;
+    background: #1B213A;
+    margin-top: 119px;
+}
+.video__left {
+    width: 555px;
+    height: 405px;
+    margin-top: 55px;
+    margin-right: 40px;
+}
+.video__text {
+    grid-template-columns: 275px 275px;
+    gap: 30px;
+}
+.video__head {
+    font-size: 46px;
+    width: 427px;
+    height: 98px;
+    margin: 0;
+    line-height: 46px;
+}
+.video__item-head-one {
+    font-size: 28px;
+    line-height: 100%;
+    margin: 30px 0 0 0;
+    height: 60px;
+}
+
+.video__item-head-two {
+    font-size: 28px;
+    line-height: 100%;
+    margin: 15px 0 0 0;
+    height: 60px;
+}
+
+.video__item-text-one {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 5px;
+    margin-top: -15px;
+    width: 270px;
+}
+
+.video__item-text-two {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 270px;
+}
+.video__btn {
+    z-index: 50;
+    position: absolute;
+    height: 60px;
+    background: #40467C;
+    top: 232px;
+    left: 274px;
+}
+.video__play {
+    position: relative;
+}
+.video__banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(20, 25, 35, 0.6) 31.25%, rgba(20, 25, 35, 0) 100%), url();
+    top: 0;
+    left: 0;
+}
+.video__btn-play {
+    position: absolute;
+    margin: auto;
+    top: 18px;
+    left: 22px;
+}
